@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Cameroon-inspired colors
+				cameroon: {
+					red: '#D21034',
+					yellow: '#FCD116',
+					green: '#007A5E',
+					accent: '#8B5CF6',
+					dark: '#1A1F2C',
+					light: '#F8FAFC'
 				}
 			},
 			borderRadius: {
